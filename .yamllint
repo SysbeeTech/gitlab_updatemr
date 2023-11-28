@@ -1,0 +1,6 @@
+---
+rules:
+  empty-lines:
+    max: 2
+    max-start: 0
+    max-end: 0

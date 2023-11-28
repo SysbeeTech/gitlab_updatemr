@@ -1,0 +1,6 @@
+# vi: ft=yaml
+---
+formatter:
+  type: basic
+  include_document_start: true
+  retain_line_breaks: true

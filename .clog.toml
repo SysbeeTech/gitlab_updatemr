@@ -1,0 +1,7 @@
+[clog]
+repository = "https://github.com/SysbeeTech/gitlab_updatemr"
+changelog = "CHANGELOG.md"
+from-latest-tag = true
+
+[sections]
+Deps = ["ci"]
