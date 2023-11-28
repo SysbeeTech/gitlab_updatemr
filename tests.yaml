@@ -1,0 +1,16 @@
+---
+schemaVersion: '2.0.0' # Make sure to test the latest schema version
+commandTests:
+  - name: "Test if gitlab is installed"
+    command: "gitlab"
+    args:
+      - "--version"
+    exitCode: 0
+fileExistenceTests:
+  - name: 'APP'
+    path: '/app/update_mr.py'
+    shouldExist: true
+    permissions: '-rwxr-xr-x'
+    uid: 1000
+    gid: 1000
+    isExecutableBy: 'group'
