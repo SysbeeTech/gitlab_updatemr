@@ -1,4 +1,4 @@
-FROM python:3.12.1-slim-bookworm
+FROM python:3.12.2-slim-bookworm
 MAINTAINER "branko@sysbee.net"
 LABEL org.opencontainers.image.source https://github.com/sysbeetech/gitlab_updatemr
 COPY --chown=1000:1000 ./app/ /app
